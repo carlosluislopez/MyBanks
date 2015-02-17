@@ -1,0 +1,347 @@
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-11 00:54:29 +0000
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.4) lib/active_record/migration.rb:383:in `check_pending!'
+  activerecord (4.0.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__781824073__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-11 00:54:38 +0000
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.4) lib/active_record/migration.rb:383:in `check_pending!'
+  activerecord (4.0.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__781824073__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-11 00:57:16 +0000
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.4) lib/active_record/migration.rb:383:in `check_pending!'
+  activerecord (4.0.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__291921707__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-11 00:57:27 +0000
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.4) lib/active_record/migration.rb:383:in `check_pending!'
+  activerecord (4.0.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:373:in `_run__291921707__call__callbacks'
+  activesupport (4.0.4) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+  [1m[36m (3.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (3.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateClients (20150210010814)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "clients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "gender" varchar(255), "identity" varchar(255), "phone" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150210010814"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBankAccounts (20150210011139)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.2ms)[0m  [1mCREATE TABLE "bank_accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "balance" decimal, "type_account" varchar(255), "rate" decimal, "currency" varchar(255), "client_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_bank_accounts_on_client_id" ON "bank_accounts" ("client_id")
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150210011139"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-11 01:00:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 972ms (Views: 942.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 10.0.2.2 at 2015-02-11 01:00:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:13 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:13 +0000
+
+
+Started GET "/assets/clients.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-11 01:00:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:13 +0000
+
+
+Started GET "/assets/home.css?body=1" for 10.0.2.2 at 2015-02-11 01:00:13 +0000
+
+
+Started GET "/clients" for 10.0.2.2 at 2015-02-11 01:00:16 +0000
+Processing by ClientsController#index as HTML
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "clients"
+  Rendered clients/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 83ms (Views: 70.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/clients/new" for 10.0.2.2 at 2015-02-11 01:00:17 +0000
+Processing by ClientsController#new as HTML
+  Rendered shared/_print_errors.html.haml (20.2ms)
+  Rendered clients/_form.html.haml (103.1ms)
+  Rendered clients/new.html.haml within layouts/application (145.8ms)
+Completed 200 OK in 221ms (Views: 216.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 10.0.2.2 at 2015-02-11 01:00:21 +0000
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iKtqT3PTrbqzU50k4dUjlTFpZaoFIA+w5RTutPIBWWc=", "client"=>{"identity"=>"1804*", "name"=>"", "phone"=>"", "email"=>"", "gender"=>"Masculino"}, "commit"=>"Create Client"}
+Unpermitted parameters: gender
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mClient Exists (1.0ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."identity" = '1804*' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_print_errors.html.haml (1.0ms)
+  Rendered clients/_form.html.haml (18.9ms)
+  Rendered clients/new.html.haml within layouts/application (35.1ms)
+Completed 200 OK in 134ms (Views: 99.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-11 01:00:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-11 01:00:22 +0000
+
+
+Started POST "/clients" for 10.0.2.2 at 2015-02-11 01:02:15 +0000
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iKtqT3PTrbqzU50k4dUjlTFpZaoFIA+w5RTutPIBWWc=", "client"=>{"identity"=>"1804-1988", "name"=>"Carlos", "phone"=>"55555", "email"=>"carlos", "gender"=>"Masculino"}, "commit"=>"Create Client"}
+Unpermitted parameters: gender
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mClient Exists (1.3ms)[0m  [1mSELECT 1 AS one FROM "clients" WHERE "clients"."identity" = '1804-1988' LIMIT 1[0m
+  [1m[35mClient Exists (0.0ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."email" = 'carlos' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_print_errors.html.haml (0.4ms)
+  Rendered clients/_form.html.haml (17.3ms)
+  Rendered clients/new.html.haml within layouts/application (33.7ms)
+Completed 200 OK in 105ms (Views: 99.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-11 01:02:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-11 01:02:15 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2015-02-11 01:02:21 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-11 01:02:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-11 01:02:21 +0000
+
+
+Started GET "/clients" for 10.0.2.2 at 2015-02-11 01:02:22 +0000
+Processing by ClientsController#index as HTML
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "clients"
+  Rendered clients/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/clients/new" for 10.0.2.2 at 2015-02-11 01:02:24 +0000
+Processing by ClientsController#new as HTML
+  Rendered shared/_print_errors.html.haml (0.1ms)
+  Rendered clients/_form.html.haml (21.8ms)
+  Rendered clients/new.html.haml within layouts/application (43.2ms)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/clients" for 10.0.2.2 at 2015-02-11 01:02:51 +0000
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iKtqT3PTrbqzU50k4dUjlTFpZaoFIA+w5RTutPIBWWc=", "client"=>{"identity"=>"1255454564", "name"=>"Carlos", "phone"=>"45646545", "email"=>"carlos@yahoo.com", "gender"=>"Masculino"}, "commit"=>"Create Client"}
+Unpermitted parameters: gender
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mClient Exists (1.2ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."identity" = '1255454564' LIMIT 1
+  [1m[36mClient Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "clients" WHERE "clients"."email" = 'carlos@yahoo.com' LIMIT 1[0m
+  [1m[35mSQL (54.9ms)[0m  INSERT INTO "clients" ("created_at", "email", "identity", "name", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Wed, 11 Feb 2015 01:02:51 UTC +00:00], ["email", "carlos@yahoo.com"], ["identity", "1255454564"], ["name", "Carlos"], ["phone", "45646545"], ["updated_at", Wed, 11 Feb 2015 01:02:51 UTC +00:00]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/clients
+Completed 302 Found in 66ms (ActiveRecord: 58.3ms)
+
+
+Started GET "/clients" for 10.0.2.2 at 2015-02-11 01:02:51 +0000
+Processing by ClientsController#index as HTML
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "clients"
+  [1m[36mClient Load (1.3ms)[0m  [1mSELECT "clients".* FROM "clients" ORDER BY "clients"."name" ASC[0m
+  Rendered clients/_client.html.haml (1.1ms)
+  Rendered clients/index.html.haml within layouts/application (23.4ms)
+Completed 200 OK in 91ms (Views: 87.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-02-11 01:02:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-02-11 01:02:51 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DropBankAccountTable (20150211013821)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (3.4ms)[0m  [1mDROP TABLE "bank_accounts"[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150211013821"]]
+  [1m[36m (39.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAccountTypes (20150211014259)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "account_types" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "rate" decimal, "min_deposit" decimal, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150211014259"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateBankAccounts (20150211014524)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "bank_accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "balance" decimal, "currency" varchar(255), "client_id" integer, "account_type_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_bank_accounts_on_client_id" ON "bank_accounts" ("client_id")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_bank_accounts_on_account_type_id" ON "bank_accounts" ("account_type_id")[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150211014524"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
